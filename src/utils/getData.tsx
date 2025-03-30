@@ -22,8 +22,24 @@ export const getDataId = async (id: number): Promise<Product | null> => {
     if (!response.ok) {
       throw new Error("error not found");
     }
-    const data: Product[]= await response.json();
+    const data: Product[] = await response.json();
     const item = data.find((el) => el.id === id) || null
+    return item
+  } catch (error) {
+    console.error("Loading error", error);
+    return null
+  }
+};
+
+export const getDataCategory = async (category: string): Promise<Product | null> => {
+  const productos = "/mockaroo_data.json";
+  try {
+    const response = await fetch(productos);
+    if (!response.ok) {
+      throw new Error("error not found");
+    }
+    const data: Product[] = await response.json();
+    const item = data.find((el) => el.category === category) || null
     return item
   } catch (error) {
     console.error("Loading error", error);

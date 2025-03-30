@@ -8,10 +8,11 @@ export const Navbar = ({ links }: NavbarProps) => {
   const defaultLinks = [
     { text: "inicio", href: "/" },
     { text: "Products", href: "/" },
-    { text: "Clothing", href: "/products/clothing - outerwear" },
+    { text: "Clothing", href: "/products/clothing" },
     { text: "Automotive", href: "/products/automotive" },
     { text: "Garden", href: "/products/garden" },
     { text: "Fitness", href: "/products/fitness" },
+    { text: "Food", href: "/products/food"}
   ];
   return (
     <nav>

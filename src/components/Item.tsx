@@ -5,7 +5,7 @@ interface ItemProps {
   item: Product
 }
 
-export const Item:React.FC<ItemProps> = ({ item }) => {
+export const Item = ({ item }: ItemProps) => {
   return (
     <li className="w-50 flex flex-col mb-2 rounded-lg justify-center items-center border border-black ">
       <img className="rounded-t-lg" src={item.image} alt={item.name} />
