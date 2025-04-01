@@ -46,7 +46,7 @@ export const ItemListContainer = () => {
   }
 
   return (
-    <div className="bg-gray-300">
+    <div className="w-auto bg-gray-300">
       <ItemList items={items} titulo={titulo}/>
     </div>
   );

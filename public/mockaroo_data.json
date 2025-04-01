@@ -1,20 +1,180 @@
-[{"id":1,"name":"Car Vacuum Cleaner","description":"Compact vacuum designed specifically for cleaning vehicles.","category":"Automotive","price":39.99,"image":"http://dummyimage.com/200x100.png/5fa2dd/ffffff"},
-{"id":2,"name":"Blender Bottle","description":"Portable mixer bottle for smoothies and protein shakes.","category":"Fitness","price":12.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":3,"name":"Savory Italian Herbs","description":"A blend of dried Italian herbs for cooking.","category":"Food - Spices","price":2.99,"image":"http://dummyimage.com/200x100.png/5fa2dd/ffffff"},
-{"id":4,"name":"Breezy Off-The-Shoulder Top","description":"A light and breezy top ideal for warm days.","category":"Clothing - Tops","price":34.99,"image":"http://dummyimage.com/200x100.png/5fa2dd/ffffff"},
-{"id":5,"name":"Herbal Tea Set","description":"Assorted herbal tea bags for relaxation and wellness.","category":"Food - Spices","price":19.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":6,"name":"Roasted Garlic Butter","description":"A flavorful spread made with roasted garlic and creamy butter.","category":"Food - Spices","price":3.29,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":7,"name":"High-Speed Hand Blender","description":"Powerful hand blender for soups and smoothies.","category":"Kitchen","price":39.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":8,"name":"Casual Long Cardigan","description":"A cozy long cardigan designed for layering in any season.","category":"Clothing - Outerwear","price":45.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":9,"name":"Honey Sesame Chicken","description":"A delicious chicken dish featuring honey and sesame flavors.","category":"Food - Frozen Food","price":8.99,"image":"http://dummyimage.com/200x100.png/cc0000/ffffff"},
-{"id":10,"name":"Cinnamon Ice Cream","description":"Creamy ice cream with a warm cinnamon flavor, perfect for dessert.","category":"Food - Frozen Desserts","price":4.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":11,"name":"Dark Chocolate Covered Pretzels","description":"Crunchy pretzels dipped in rich dark chocolate.","category":"Food - Snacks","price":3.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":12,"name":"Peanut Butter Protein Balls","description":"No-bake energy bites made with peanut butter and oats.","category":"Food - Snacks","price":5.29,"image":"http://dummyimage.com/200x100.png/5fa2dd/ffffff"},
-{"id":13,"name":"Herb Garden Planter Box","description":"Elevated planter box for growing herbs or small plants easily.","category":"Garden","price":49.99,"image":"http://dummyimage.com/200x100.png/5fa2dd/ffffff"},
-{"id":14,"name":"Olive Oil","description":"Extra virgin olive oil, ideal for cooking and salads.","category":"Food - Condiments","price":7.99,"image":"http://dummyimage.com/200x100.png/cc0000/ffffff"},
-{"id":15,"name":"Pumpkin Spice Coffee","description":"Coffee blend infused with pumpkin spice, perfect for fall.","category":"Food - Beverages","price":7.99,"image":"http://dummyimage.com/200x100.png/cc0000/ffffff"},
-{"id":16,"name":"Children's Educational Workbook","description":"Activity workbook for early learning and fun.","category":"Books","price":12.99,"image":"http://dummyimage.com/200x100.png/5fa2dd/ffffff"},
-{"id":17,"name":"Sweet Potatoes (organic)","description":"Fresh organic sweet potatoes, great for roasting or mashing.","category":"Food - Vegetables","price":1.99,"image":"http://dummyimage.com/200x100.png/dddddd/000000"},
-{"id":18,"name":"Garden Hoses with Expandable Features","description":"Lightweight, expandable hoses for easy handling.","category":"Garden","price":34.99,"image":"http://dummyimage.com/200x100.png/dddddd/000000"},
-{"id":19,"name":"Herbal Tea Sampler Box","description":"Assorted collection of herbal teas for relaxation and wellness.","category":"Food","price":29.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"},
-{"id":20,"name":"Backpacking Tent","description":"Lightweight and durable tent for camping trips.","category":"Outdoor","price":109.99,"image":"http://dummyimage.com/200x100.png/ff4444/ffffff"}]
+[
+  {
+    "id": 1,
+    "name": "Car Vacuum Cleaner",
+    "description": "Compact vacuum designed specifically for cleaning vehicles.",
+    "category": "Automotive",
+    "price": 39.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 2,
+    "name": "Blender Bottle",
+    "description": "Portable mixer bottle for smoothies and protein shakes.",
+    "category": "Fitness",
+    "price": 12.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 3,
+    "name": "Savory Italian Herbs",
+    "description": "A blend of dried Italian herbs for cooking.",
+    "category": "Food - Spices",
+    "price": 2.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 4,
+    "name": "Breezy Off-The-Shoulder Top",
+    "description": "A light and breezy top ideal for warm days.",
+    "category": "Clothing - Tops",
+    "price": 34.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 5,
+    "name": "Herbal Tea Set",
+    "description": "Assorted herbal tea bags for relaxation and wellness.",
+    "category": "Food - Spices",
+    "price": 19.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 6,
+    "name": "Roasted Garlic Butter",
+    "description": "A flavorful spread made with roasted garlic and creamy butter.",
+    "category": "Food - Spices",
+    "price": 3.29,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 7,
+    "name": "High-Speed Hand Blender",
+    "description": "Powerful hand blender for soups and smoothies.",
+    "category": "Kitchen",
+    "price": 39.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 8,
+    "name": "Casual Long Cardigan",
+    "description": "A cozy long cardigan designed for layering in any season.",
+    "category": "Clothing - Outerwear",
+    "price": 45.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 9,
+    "name": "Honey Sesame Chicken",
+    "description": "A delicious chicken dish featuring honey and sesame flavors.",
+    "category": "Food - Frozen Food",
+    "price": 8.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 10,
+    "name": "Cinnamon Ice Cream",
+    "description": "Creamy ice cream with a warm cinnamon flavor, perfect for dessert.",
+    "category": "Food - Frozen Desserts",
+    "price": 4.99,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 11,
+    "name": "Dark Chocolate Covered Pretzels",
+    "description": "Crunchy pretzels dipped in rich dark chocolate.",
+    "category": "Food - Snacks",
+    "price": 3.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 12,
+    "name": "Peanut Butter Protein Balls",
+    "description": "No-bake energy bites made with peanut butter and oats.",
+    "category": "Food - Snacks",
+    "price": 5.29,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 13,
+    "name": "Herb Garden Planter Box",
+    "description": "Elevated planter box for growing herbs or small plants easily.",
+    "category": "Garden",
+    "price": 49.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 14,
+    "name": "Olive Oil",
+    "description": "Extra virgin olive oil, ideal for cooking and salads.",
+    "category": "Food - Condiments",
+    "price": 7.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 15,
+    "name": "Pumpkin Spice Coffee",
+    "description": "Coffee blend infused with pumpkin spice, perfect for fall.",
+    "category": "Food - Beverages",
+    "price": 7.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 16,
+    "name": "Children's Educational Workbook",
+    "description": "Activity workbook for early learning and fun.",
+    "category": "Books",
+    "price": 12.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 17,
+    "name": "Sweet Potatoes (organic)",
+    "description": "Fresh organic sweet potatoes, great for roasting or mashing.",
+    "category": "Food - Vegetables",
+    "price": 1.99,
+    "image": "http://dummyimage.com/200x100.png/dddddd/000000"
+  },
+  {
+    "id": 18,
+    "name": "Garden Hoses with Expandable Features",
+    "description": "Lightweight, expandable hoses for easy handling.",
+    "category": "Garden",
+    "price": 34.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/dddddd/000000"
+  },
+  {
+    "id": 19,
+    "name": "Herbal Tea Sampler Box",
+    "description": "Assorted collection of herbal teas for relaxation and wellness.",
+    "category": "Food",
+    "price": 29.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 20,
+    "name": "Backpacking Tent",
+    "description": "Lightweight and durable tent for camping trips.",
+    "category": "Outdoor",
+    "price": 109.99,
+    "stock": 5,
+    "image": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+  }
+]

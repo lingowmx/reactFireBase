@@ -17,7 +17,7 @@ export const Item = ({ item }: ItemProps) => {
         <span>${item.price}</span>
         <div className="w-full flex items-start ml-2 mb-2 mt-2">
           <Link
-            className="w-20 border border-white rounded-lg bg-purple-300 text-black cursor-pointer"
+            className="w-20 border border-white rounded-lg bg-purple-300 text-black text-center cursor-pointer"
             to={`/item/${item.id}`}>
             More
           </Link>
