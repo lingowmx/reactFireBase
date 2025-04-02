@@ -11,6 +11,7 @@ export const Menu = ({ menuOpen }: MenuProps) => {
     { text: "Garden", href: "/products/garden" },
     { text: "Fitness", href: "/products/fitness" },
     { text: "Food", href: "/products/food" },
+    { text: "Contact", href: "/contact" },
   ];
   if (!menuOpen) {
     return null;

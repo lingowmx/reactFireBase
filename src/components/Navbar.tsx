@@ -16,6 +16,8 @@ export const Navbar = ({ links }: NavbarProps) => {
     { text: "Garden", href: "/products/garden" },
     { text: "Fitness", href: "/products/fitness" },
     { text: "Food", href: "/products/food" },
+    { text: "Contact", href: "/contact" },
+
   ];
   return (
     <nav className="w-full mt-4 mb-2 flex justify-center">

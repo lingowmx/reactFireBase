@@ -1,14 +1,18 @@
+import { CartContext } from "../context/cartContext";
 import { Product } from "../types";
 import { getData } from "../utils/getData";
 import { ItemCounter } from "./ItemCounter";
-import { NextButton } from "./NextButton";
-import { PrevButton } from "./PrevButton";
-import { useEffect, useState } from "react";
+// import { NextButton } from "./NextButton";
+// import { PrevButton } from "./PrevButton";
+import { useContext, useEffect, useState } from "react";
 interface itemProps {
   item: Product;
 }
 
 export const ItemDetail = ({ item }: itemProps) => {
+  const {carrito, setCarrito} = useContext(CartContext)
+  console.log(carrito)
+  
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
   const [quantity, setQuantity] = useState(1);
   useEffect(() => {
@@ -20,7 +24,7 @@ export const ItemDetail = ({ item }: itemProps) => {
             prod.category.toLowerCase() === item.category.toLowerCase() &&
             prod.id !== item.id
         );
-        console.log(related);
+        // console.log(related);
         setRelatedProducts(related);
       } catch (error) {
         console.error("Error fetching related products", error);
@@ -41,6 +45,18 @@ export const ItemDetail = ({ item }: itemProps) => {
     }
   };
 
+  const handleAddToCart = () => {
+    const itemAgregado = {...item, quantity}
+    const nuevoCarrito = [...carrito]
+    const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id)
+    if(estaEnElCarrito){
+      estaEnElCarrito.quantity += quantity;
+    }else{
+      nuevoCarrito.push(itemAgregado)
+    }
+    setCarrito(nuevoCarrito)
+  }
+
   return (
     <section>
       <div className="w-72 flex flex-col border border-black rounded-lg gap-2">
@@ -56,6 +72,7 @@ export const ItemDetail = ({ item }: itemProps) => {
               quantity={quantity}
               handleRemove={handleRemove}
               handleAdd={handleAdd}
+              handleAddToCart={handleAddToCart}
             />
           </div>
           {/* <div className="w-36 flex justify-between text-center">

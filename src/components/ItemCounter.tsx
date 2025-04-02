@@ -6,9 +6,15 @@ interface ItemCounterProps {
   quantity: number;
   handleRemove: () => void;
   handleAdd: () => void;
+  handleAddToCart: () => void;
 }
 
-export const ItemCounter = ({handleAdd, handleRemove, quantity }: ItemCounterProps) => {
+export const ItemCounter = ({
+  handleAdd,
+  handleRemove,
+  handleAddToCart,
+  quantity,
+}: ItemCounterProps) => {
   return (
     <div className="w-28 flex flex-col justify-between items-center">
       <div className="w-full flex items-center justify-between">
@@ -26,7 +32,7 @@ export const ItemCounter = ({handleAdd, handleRemove, quantity }: ItemCounterPro
           +
         </button>
       </div>
-      <button>Add to cart</button>
+      <button onClick={handleAddToCart}>Add to cart</button>
     </div>
   );
 };
